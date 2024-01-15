@@ -30,7 +30,7 @@ func main() {
 	r.PUT("/users/:id", UpdateUser)
 	r.DELETE("/users/:id", DeleteUser)
 
-	r.Run()
+	r.Run(":5000")
 }
 
 func GetUsers(c *gin.Context) {
