@@ -1,0 +1,15 @@
+# .gitignore
+
+# Binary for the application
+/mydb.sqlite
+
+# Dependencies
+/vendor/
+
+# IDE/Editor folders
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+
